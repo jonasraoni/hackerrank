@@ -16,7 +16,7 @@ function activityNotifications(expenditure, d) {
 	const isOdd = d & 1;
 	let notifications = 0;
 	// We're keeping an array to keep the unordered trailing list
-	let trailing = (expenditure = expenditure.map(expense => +expense)).slice(0, d);
+	let trailing = expenditure.slice(0, d);
 	// And a sorted trailing list which we'll update as needed instead of resorting what's already sorted
 	let sorted = trailing.slice(0, d).sort((a, b) => a - b);
 	for (let i = d - 1; ++i < l; ) {
