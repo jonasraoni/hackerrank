@@ -1,14 +1,38 @@
 //+ Jonas Raoni Soares Silva
 //@ http://raoni.org
 
-function hoursglassSum(arr) {
-	let max = null;
-	//nothing special here, just pass through all the hourglasses and counts them, already keeping track of the biggest
-	for (let i = 4; i--;) {
-		for (let j = 4; j--;) {
-			const sum = [...arr[i].slice(j, j + 3), arr[i + 1][j + 1], ...arr[i + 2].slice(j, j + 3)].reduce((c, s) => s += c, 0);
-			max = max === null ? sum : Math.max(max, sum);
-		}
+class Solver {
+	constructor(width, height) {
+		this.length = width * height;
+		this.board = new Array(this.length);
 	}
-	return max;
+	addWarp(start, end) {
+		this.board[+start] = +end;
+	}
+	solve() {
+		for (let current = [1], next = [], depth = 1; current.length; ++depth) {
+			for (let node;
+				(node = current.pop()) !== undefined;) {
+				for (let i = node, l = Math.min(this.length, i + 6); i++ < l;) {
+					const child = this.board[i] || i;
+					if (child === this.length)
+						return depth;
+					if (!~child)
+						continue;
+					next.push(child);
+					this.board[i] = -1;
+				}
+			}
+			[current, next] = [next, current];
+		}
+		return -1;
+	}
+}
+
+function quickestWayUp(ladders, snakes) {
+	const s = new Solver(10, 10);
+	ladders.forEach(o => s.addWarp(o[0], o[1]));
+	snakes.forEach(o => s.addWarp(o[0], o[1], true));
+	const r = s.solve();
+	return r ? r : -1;
 }

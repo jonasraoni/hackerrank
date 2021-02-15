@@ -21,7 +21,7 @@ function minimumSwaps(arr) {
 	return swaps;
 }
 
-function minimumSwaps(arr) {
+function minimumSwaps2(arr) {
 	let swaps = 0;
 	for (let i = -1, l = arr.length; ++i < l - 1;) {
 		if (arr[i] !== i + 1) {
