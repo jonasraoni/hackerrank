@@ -67,6 +67,7 @@ Note: Few codes were solved in C# (I've written them a long time ago), I'll conv
 
 - [Count Triplets](challenges/countTriplets.js)
 - [Frequency Queries](challenges/freqQuery.js)
+- [Max Array Sum](challenges/maxSubsetSum.js)
 - [Minimum Swaps 2](challenges/minimumSwaps.js)
 - [Special String Again](challenges/substrCount.js)
 
