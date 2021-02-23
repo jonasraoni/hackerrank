@@ -92,12 +92,24 @@ Note: Few codes were solved in C# (I've written them a long time ago), I'll conv
 ## [Functional Programming](functional-programming)
 
 - [Solve Me First FP](functional-programming/introduction/solveMeFirst.cs)
+
 ### [Introduction](functional-programming/introduction)
+
+## [Mathematics](mathematics)
+
+### [Fundamentals](mathematics/fundamentals)
+
+- [Army Game](mathematics/fundamentals/gameWithCells.js)
+- [Find the Point](mathematics/fundamentals/findPoint.js)
+- [Handshake](mathematics/fundamentals/handshake.js)
+- [Is Fibo](mathematics/fundamentals/solve.js)
+- [Leonardo's Prime Factors](mathematics/fundamentals/primeCount.js)
+- [Maximum Draws](mathematics/fundamentals/maximumDraws.js)
+- [Minimum Height Triangle](mathematics/fundamentals/lowestTriangle.js)
 
 ## [Tutorials](tutorials)
 
 ### [Cracking The Code Interview](tutorials/cracking-the-code-interview)
-Merge Sort: Counting Inversions
 - [Arrays: Left Rotation](tutorials/cracking-the-code-interview/rotLeft.js)
 - [Hash Tables: Ice Cream Parlor](tutorials/cracking-the-code-interview/whatFlavors.js)
 - [Hash Tables: Ransom Note Solution](tutorials/cracking-the-code-interview/checkMagazine.js)
@@ -108,4 +120,3 @@ Merge Sort: Counting Inversions
 - [Sorting: Comparator](tutorials/cracking-the-code-interview/compare.js)
 - [Strings: Making Anagrams](tutorials/cracking-the-code-interview/makeAnagram.js)
 - [Time Complexity: Primality](tutorials/cracking-the-code-interview/primality.js)
-
