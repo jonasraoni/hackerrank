@@ -84,6 +84,10 @@ Note: Few codes were solved in C# (I've written them a long time ago), I'll conv
 - [Inserting a Node Into a Sorted Doubly Linked List](data-structures/linked-lists/sortedInsert.js)
 - [Reverse A Doubly Linked List](data-structures/linked-lists/reverse.js)
 
+### [Stacks](stacks/trees)
+
+- [Balanced Brackets](data-structures/stacks/isBalanced.js)
+
 ### [Trees](data-structures/trees)
 
 - [Binary Search Tree : Lowest Common Ancestor](data-structures/trees/lca.js)
@@ -100,12 +104,15 @@ Note: Few codes were solved in C# (I've written them a long time ago), I'll conv
 ### [Fundamentals](mathematics/fundamentals)
 
 - [Army Game](mathematics/fundamentals/gameWithCells.js)
+- [Connecting Towns](mathematics/fundamentals/connectingTowns.js)
+- [Cutting Paper Square](mathematics/fundamentals/cuttingPapersSquare.js)
 - [Find the Point](mathematics/fundamentals/findPoint.js)
 - [Handshake](mathematics/fundamentals/handshake.js)
 - [Is Fibo](mathematics/fundamentals/solve.js)
 - [Leonardo's Prime Factors](mathematics/fundamentals/primeCount.js)
 - [Maximum Draws](mathematics/fundamentals/maximumDraws.js)
 - [Minimum Height Triangle](mathematics/fundamentals/lowestTriangle.js)
+- [Summing the N Series](mathematics/fundamentals/summingSeries.js)
 
 ## [Tutorials](tutorials)
 
