@@ -75,8 +75,13 @@ Note: Few codes were solved in C# (I've written them a long time ago), I'll conv
 
 ### [Arrays](data-structures/arrays)
 
+- [Arrays - DS](data-structures/arrays/reverse.js)
 - [2D Array - DS](data-structures/arrays/hoursglassSum.js)
 - [Array Manipulation](data-structures/arrays/arrayManipulation.js)
+- [Dynamic Array](data-structures/arrays/dynamicArray.js)
+- [Left Rotation](data-structures/arrays/rotateLeft.js)
+- [Sparse Arrays](data-structures/arrays/matchingStrings.js)
+
 ### [Linked Lists](data-structures/linked-lists)
 
 - [Find Merge Point Of Two Lists](data-structures/linked-lists/findMergeNode.js)
@@ -87,6 +92,7 @@ Note: Few codes were solved in C# (I've written them a long time ago), I'll conv
 ### [Stacks](stacks/trees)
 
 - [Balanced Brackets](data-structures/stacks/isBalanced.js)
+- [Maximum Element](data-structures/stacks/processData.js)
 
 ### [Trees](data-structures/trees)
 
