@@ -5,22 +5,29 @@
 // It's clear that I have to find a way to avoid updating the original array, but I need some free time to think about it
 
 function countInversions(arr) {
-	const binarySearch = (o, v, i) => {
-		let h = o.length,
-			l = i - 1,
-			m;
-		while (h - l > 1)
-			if (o[m = h + l >> 1] < v) l = m;
-			else h = m;
-		return h;
-	};
-	let inversions = 0;
-	for (let l = arr.length, i = arr.length; --i;)
-		if (arr[i - 1] > arr[i]) {
-			const insert = binarySearch(arr, arr[i - 1], i);
-			for (let j = i - 1; ++j < insert;)
-				[arr[j], arr[j - 1]] = [arr[j - 1], arr[j]];
-			inversions += insert - i;
+	let
+		inversions = 0,
+		l = arr.length,
+		buffer = new Array(l);
+	
+	for (let size = 1; size < l; size <<= 1) {
+		for (let leftStart = 0; leftStart < l; leftStart += 2 * size) {
+			let
+				left = leftStart,
+				right = Math.min(left + size, l),
+				leftLimit = right,
+				rightLimit = Math.min(right + size, l),
+				i = left;
+			while (left < leftLimit && right < rightLimit) {
+				const useLeft = arr[left] <= arr[right];
+				if (!useLeft)
+					inversions += leftLimit - left;
+				buffer[i++] = arr[useLeft ? left++ : right++];
+			}
+			for (; left < leftLimit; buffer[i++] = arr[left++]);
+			for (; right < rightLimit; buffer[i++] = arr[right++]);
 		}
+		[arr, buffer] = [buffer, arr];
+	}
 	return inversions;
 }
