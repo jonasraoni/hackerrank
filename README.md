@@ -97,6 +97,7 @@ Note: Few codes were solved in C# (I've written them a long time ago), I'll conv
 ### [Trees](data-structures/trees)
 
 - [Binary Search Tree : Lowest Common Ancestor](data-structures/trees/lca.js)
+- [Swap Nodes [Algo]](data-structures/trees/swapNodes.js)
 - [Tree: Height of a Binary Tree](data-structures/trees/height.js)
 
 ## [Functional Programming](functional-programming)
