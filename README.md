@@ -38,6 +38,10 @@ Note: Few codes were solved in C# (I've written them a long time ago), I'll conv
 - [Repeated String](algorithms/implementation/repeatedString.js)
 - [Sales By Match](algorithms/implementation/sockMerchant.js)
 
+### [Sorting](algorithms/search)
+
+- [Pairs](algorithms/search/pairs.js)
+
 ### [Sorting](algorithms/sorting)
 
 - [Fraudulent Activity Notifications](algorithms/sorting/activityNotifications.js)
