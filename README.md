@@ -75,6 +75,7 @@ Note: Few codes were solved in C# (I've written them a long time ago), I'll conv
 - [Minimum Swaps 2](challenges/minimumSwaps.js)
 - [Minimum Time Required](challenges/minTime.js)
 - [Special String Again](challenges/substrCount.js)
+- [Tripple Sum](challenges/trippleSum.js)
 
 ## [Data Structures](data-structures)
 
