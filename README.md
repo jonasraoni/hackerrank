@@ -40,6 +40,7 @@ Note: Few codes were solved in C# (I've written them a long time ago), I'll conv
 
 ### [Sorting](algorithms/search)
 
+- [Connected Cells in a Grid](algorithms/search/connectedCell.js)
 - [Ice Cream Parlor](algorithms/search/icecreamParlor.js)
 - [Pairs](algorithms/search/pairs.js)
 - [Sherlock and Array](algorithms/search/balancedSums.js)
