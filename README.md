@@ -19,7 +19,7 @@ Note: Few codes were solved in C# (I've written them a long time ago), I'll conv
 
 ### [Graph Theory](algorithms/graph-theory)
 
-- [Snakes And Ladders - The Quickest Way Up](algorithms/graph-theory/quickestWayUp.js)
+- [Snakes and Ladders: The Quickest Way Up](algorithms/graph-theory/quickestWayUp.js)
 
 ### [Greedy](algorithms/greedy)
 
@@ -79,7 +79,7 @@ Note: Few codes were solved in C# (I've written them a long time ago), I'll conv
 - [Minimum Swaps 2](challenges/minimumSwaps.js)
 - [Minimum Time Required](challenges/minTime.js)
 - [Special String Again](challenges/substrCount.js)
-- [Tripple Sum](challenges/trippleSum.js)
+- [Triple Sum](challenges/tripleSum.js)
 
 ## [Data Structures](data-structures)
 
@@ -122,7 +122,7 @@ Note: Few codes were solved in C# (I've written them a long time ago), I'll conv
 
 - [Army Game](mathematics/fundamentals/gameWithCells.js)
 - [Connecting Towns](mathematics/fundamentals/connectingTowns.js)
-- [Cutting Paper Square](mathematics/fundamentals/cuttingPapersSquare.js)
+- [Cutting Paper Squares](mathematics/fundamentals/cuttingPapersSquare.js)
 - [Find the Point](mathematics/fundamentals/findPoint.js)
 - [Handshake](mathematics/fundamentals/handshake.js)
 - [Is Fibo](mathematics/fundamentals/solve.js)
