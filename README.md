@@ -12,6 +12,7 @@ Note: Few codes were solved in C# (I've written them a long time ago), I'll conv
 ### [Bit Manipulation](algorithms/bit-manipulation)
 
 - [Flipping Bits](algorithms/bit-manipulation/flippingBits.js)
+- [Lonely Integer](algorithms/bit-manipulation/lonelyinteger.js)
 
 ### [Constructive Algorithms](algorithms/constructive-algorithms)
 
