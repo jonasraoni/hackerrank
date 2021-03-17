@@ -130,6 +130,7 @@ Note: Few codes were solved in C# (I've written them a long time ago), I'll conv
 - [Leonardo's Prime Factors](mathematics/fundamentals/primeCount.js)
 - [Maximum Draws](mathematics/fundamentals/maximumDraws.js)
 - [Minimum Height Triangle](mathematics/fundamentals/lowestTriangle.js)
+- [Sherlock and Moving Tiles](mathematics/fundamentals/movingTiles.js)
 - [Summing the N Series](mathematics/fundamentals/summingSeries.js)
 
 ## [Tutorials](tutorials)
