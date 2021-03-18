@@ -122,6 +122,7 @@ Note: Few codes were solved in C# (I've written them a long time ago), I'll conv
 ### [Fundamentals](mathematics/fundamentals)
 
 - [Army Game](mathematics/fundamentals/gameWithCells.js)
+- [Best Divisor](mathematics/fundamentals/bestDivisor.js)
 - [Connecting Towns](mathematics/fundamentals/connectingTowns.js)
 - [Cutting Paper Squares](mathematics/fundamentals/cuttingPapersSquare.js)
 - [Find the Point](mathematics/fundamentals/findPoint.js)
@@ -130,6 +131,7 @@ Note: Few codes were solved in C# (I've written them a long time ago), I'll conv
 - [Leonardo's Prime Factors](mathematics/fundamentals/primeCount.js)
 - [Maximum Draws](mathematics/fundamentals/maximumDraws.js)
 - [Minimum Height Triangle](mathematics/fundamentals/lowestTriangle.js)
+- [Restaurant](mathematics/fundamentals/restaurant.js)
 - [Sherlock and Moving Tiles](mathematics/fundamentals/movingTiles.js)
 - [Summing the N Series](mathematics/fundamentals/summingSeries.js)
 
