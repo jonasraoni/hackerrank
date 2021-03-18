@@ -132,6 +132,7 @@ Note: Few codes were solved in C# (I've written them a long time ago), I'll conv
 - [Maximum Draws](mathematics/fundamentals/maximumDraws.js)
 - [Minimum Height Triangle](mathematics/fundamentals/lowestTriangle.js)
 - [Restaurant](mathematics/fundamentals/restaurant.js)
+- [Reverse Game](mathematics/fundamentals/reverseGame.js)
 - [Sherlock and Moving Tiles](mathematics/fundamentals/movingTiles.js)
 - [Summing the N Series](mathematics/fundamentals/summingSeries.js)
 
