@@ -135,6 +135,7 @@ Note: Few codes were solved in C# (I've written them a long time ago), I'll conv
 - [Reverse Game](mathematics/fundamentals/reverseGame.js)
 - [Sherlock and Moving Tiles](mathematics/fundamentals/movingTiles.js)
 - [Summing the N Series](mathematics/fundamentals/summingSeries.js)
+- [Strange Grid](mathematics/fundamentals/strangeGrid.js)
 
 ## [Tutorials](tutorials)
 
