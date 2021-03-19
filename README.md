@@ -125,6 +125,7 @@ Note: Few codes were solved in C# (I've written them a long time ago), I'll conv
 - [Best Divisor](mathematics/fundamentals/bestDivisor.js)
 - [Connecting Towns](mathematics/fundamentals/connectingTowns.js)
 - [Cutting Paper Squares](mathematics/fundamentals/cuttingPapersSquare.js)
+- [Sherlock and Divisors](mathematics/fundamentals/divisors.js)
 - [Find the Point](mathematics/fundamentals/findPoint.js)
 - [Handshake](mathematics/fundamentals/handshake.js)
 - [Is Fibo](mathematics/fundamentals/solve.js)
