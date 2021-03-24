@@ -134,6 +134,7 @@ Note: Few codes were solved in C# (I've written them a long time ago), I'll conv
 - [Leonardo's Prime Factors](mathematics/fundamentals/primeCount.js)
 - [Maximum Draws](mathematics/fundamentals/maximumDraws.js)
 - [Minimum Height Triangle](mathematics/fundamentals/lowestTriangle.js)
+- [Most Distant](mathematics/fundamentals/mostDistant.js)
 - [Restaurant](mathematics/fundamentals/restaurant.js)
 - [Reverse Game](mathematics/fundamentals/reverseGame.js)
 - [Sherlock and Moving Tiles](mathematics/fundamentals/movingTiles.js)
