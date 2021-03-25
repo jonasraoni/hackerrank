@@ -142,6 +142,10 @@ Note: Few codes were solved in C# (I've written them a long time ago), I'll conv
 - [Summing the N Series](mathematics/fundamentals/summingSeries.js)
 - [Strange Grid](mathematics/fundamentals/strangeGrid.js)
 
+### [Number Theory](mathematics/number-theory)
+
+- [Constructing a Number](mathematics/number-theory/canConstruct.js)
+
 ## [Tutorials](tutorials)
 
 ### [Cracking The Code Interview](tutorials/cracking-the-code-interview)
