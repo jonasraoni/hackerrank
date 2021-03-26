@@ -145,6 +145,7 @@ Note: Few codes were solved in C# (I've written them a long time ago), I'll conv
 ### [Number Theory](mathematics/number-theory)
 
 - [Constructing a Number](mathematics/number-theory/canConstruct.js)
+- [Sherlock and GCD](mathematics/number-theory/sherlockAndGcd.js)
 
 ## [Tutorials](tutorials)
 
