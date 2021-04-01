@@ -30,6 +30,7 @@ Note: Few codes were solved in C# (I've written them a long time ago), I'll conv
 - [Mark And Toys](algorithms/greedy/maximumToys.js)
 - [Minimum Absolute Difference In An Array](algorithms/greedy/minimumAbsoluteDifference.js)
 - [Reverse Shuffle Merge](algorithms/greedy/reverseShuffleMerge.js)
+- [Sherlock and The Beast](algorithms/greedy/decentNumber.js)
 
 ### [Implementation](algorithms/implementation)
 
